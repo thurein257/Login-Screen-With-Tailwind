@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login Screen</title>
+</head>
+<body>
+    <section class="bg-gradient-to-r from-violet-500 to-fuchsia-500 min-h-screen flex items-center justify-center">
+        <div class="bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl p-5">
+            <div class="sm:w-1/2 px-16">
+                <img class="self-center w-14 h-14" src="img/mail-logo.png" alt="">
+                <form action="" class="flex flex-col gap-4">
+                    <input class="p-2 mt-2 rounded-xl border" type="text" name="name" placeholder="Username" required>
+                    <input class="p-2 mt-2 rounded-xl border" type="text" name="email" placeholder="Email" required>
+                    <textarea class="block w-full rounded-xl border p-2 mt-2" name="message" rows="3" placeholder="Message..." required></textarea>
+                    <button class="bg-[#c026d3] rounded-xl p-2 mt-2 text-white hover:scale-105 duration-300">Send</button>
+                </form>
+            </div>
+            <div class="sm:block hidden w-1/2">
+                <img class="rounded-2xl" src="img/logo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
